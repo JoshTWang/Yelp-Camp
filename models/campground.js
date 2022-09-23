@@ -1,6 +1,7 @@
 const mongoose = require('mongoose');
 const Review = require('./review');
 const Schema = mongoose.Schema;
+const opts = { toJSON: { virtuals: true } };
 
 const ImageSchema = new Schema({
     url: String,
@@ -35,7 +36,16 @@ const CampgroundSchema = new Schema({
         type: Schema.Types.ObjectId,
         ref: 'Review'
     }]
-})
+}, opts)
+
+// We need to wrap some information in 'properties' so that we can display it on the main map through mapbox
+CampgroundSchema.virtual('properties.popUpMarkup').get(function () {
+    return {
+        title: this.title,
+        id: this._id,
+        description: this.description
+    }
+});
 
 CampgroundSchema.post('findOneAndDelete', async function (doc) {
     if (doc) {
