@@ -1,9 +1,10 @@
 # YelpCamp
-Web Development Project
+> Web Development Project
+>
 
 
 
-Step 1. Basic CRUD
+#### Step 1. Basic CRUD
 
 - npm install
 - Schema + Model
@@ -12,7 +13,7 @@ Step 1. Basic CRUD
 
 
 
-Step 2. Basic Styles
+#### Step 2. Basic Styles
 
 - Images
 - Layout -- Boilerplate
@@ -22,7 +23,7 @@ Step 2. Basic Styles
 
 
 
-Step 3. Error Handling
+#### Step 3. Error Handling
 
 - Client-side
 - Server-side
@@ -30,7 +31,15 @@ Step 3. Error Handling
 
 
 
-Step 4. Review Model
+#### Step 4. Review Model
 
 - One to Many
 - Delete Middleware
+
+
+
+#### Step 5. Restructuring & Flash
+
+- Breaking out campgrounds and reviews routes
+- Configuring sessions
+- Setting up success and error flash
