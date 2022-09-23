@@ -22,8 +22,15 @@ Step 2. Basic Styles
 
 
 
-Step3. Error Handling
+Step 3. Error Handling
 
 - Client-side
 - Server-side
 - Joi
+
+
+
+Step 4. Review Model
+
+- One to Many
+- Delete Middleware
