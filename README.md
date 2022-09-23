@@ -69,3 +69,19 @@
 
 - Add Controllers directory to refactoring the routes
 - Add Star Rating to show reviews
+
+
+
+#### Step 9. Image Uploading
+
+- Enable Image Uploading
+- Using Cloudinary to store the images
+- Using dotenv to protect API information
+- Using Carousel to display images
+- Using Thumbnail to display deleteImages
+
+
+
+#### Step 10. Adding Map
+
+- MapBox
