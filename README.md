@@ -109,3 +109,15 @@
 - Mongo Injection
 - Cross Site Scripting
 - Helmet
+
+
+
+#### Step 14. Deploying
+
+- Mongo Atlas
+- Heroku
+- Env variables
+
+
+
+ALL DONE !!!
