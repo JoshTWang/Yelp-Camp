@@ -1,5 +1,11 @@
 # YelpCamp
+Web Development Project
 
-Web Development project
 
-Step 1) Basic CRUD
+
+Step 1. Basic CRUD
+
+- npm install
+- Schema + Model
+- Seeds
+- CRUD
