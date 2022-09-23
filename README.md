@@ -62,3 +62,10 @@
 - Add author(User model) to campgrounds and reviews
 - Show/hide button
 - Add permissions
+
+
+
+#### Step 8. Controllers & Star Rating
+
+- Add Controllers directory to refactoring the routes
+- Add Star Rating to show reviews
