@@ -25,8 +25,17 @@ const seedDB = async () => {
             title: `${sample(descriptors)} ${sample(places)}`,
             location: `${cities[random1000].city}, ${cities[random1000].state}`,
             description: 'Nice Place to go hiking',
-            image: 'https://source.unsplash.com/collection/483251',
-            price
+            price,
+            images: [
+                {
+                    url: 'https://res.cloudinary.com/dux0yqckq/image/upload/v1662692161/YelpCamp/ojpplivmrulbdg67plmm.jpg',
+                    filename: 'YelpCamp/ojpplivmrulbdg67plmm',
+                },
+                {
+                    url: 'https://res.cloudinary.com/dux0yqckq/image/upload/v1662692161/YelpCamp/jzswhhwlb9has0in8fc9.jpg',
+                    filename: 'YelpCamp/jzswhhwlb9has0in8fc9',
+                }
+            ]
         })
         await camp.save();
     }
