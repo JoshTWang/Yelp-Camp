@@ -85,8 +85,23 @@
 #### Step 10. Adding Map
 
 - MapBox
+- Centering the map on each campground show page
 
 
 
 #### Step 11. Cluster Main Map
 
+- MapBox -- Cluster Map
+- Display all campgrounds on index page
+- Add custom popups
+
+
+
+#### Step 12. Style clean up
+
+- Styling Home Page
+- Styling login and register form
+
+
+
+#### Step 13. Security Issues
